@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <!-- Bootstrap and Personal CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+	    <title>IQ Test Sample</title>
+
+	    <!-- Navigation Bar -->
+	    <nav class="navbar navbar-expand-lg navbar-light bkgnd-page">
+        <a class="navbar-brand" href="/">IQ Test Sample</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
+        onclick="location.href='/pretest'">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/history">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pretest">Test</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+          Improve your mind
+          </span>
+        </div>
+      </nav>
+
+    </head>
+
+    <body>
+      <!-- Bootstrap Header  style="background-image: url('cover.jpg'); background-size: cover;" -->
+      <div class="bkgnd padleft">
+        <h1 class="ha1 relative">Let's challenge your knowledge!</h1>
+        <h5 class="ha2 relative">Take this IQ Test example and improve your cognitive performance.</h5>
+        <a class="btn btn-primary btn-lg relative" href="/pretest" role="button">To the test!</a>
+      </div>
+
+      <!-- IQ Content -->
+      <div class="padding">
+        <h5 class="mark">What is an IQ Test</h5>
+        <p class="justify">
+        It is a standardized test that is used to evaluate your abilities of fast comprehension under timed conditions and for some educators
+        and psychologists it also helps to predict the academic performance of an individual as well as to detect several learning disabilities.
+
+        This kind of test is like a psychometric test, they attempt to quantify important aspects of a human being like its personality, attitude,
+        intelligence and emotion because the overcome of that number will reveal the extent of a person's ability to think.
+        </p>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="padding">
+        <h5 class="mark">Results are interesting...</h5>
+        <p class="justify">
+        Your score reflects your average ability to navigate new and unfamiliar environments.
+        The average IQ score is comprised of scores from many avenues of assessment like emotional intelligence, visuospacial abilities, verbal, cognitive reasoning,
+        and mathematical understanding, to name a few.
+        </p>
+      </div>
+
+    </body>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container-fluid bkgnd-page">
+        <p class="footer">IQ Test Sample</p>
+      </div>
+    </footer>
+
+</html>
