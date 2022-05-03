@@ -1,0 +1,327 @@
+
+/* background cover index */
+.bkgnd {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/static/img/cover.jpg');
+  background-size: cover;
+}
+
+.bkgnd::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(50,100,100,0.65);
+}
+
+/* background cover history */
+.bkgnd2 {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/static/img/books1.jpg');
+  background-size: cover;
+}
+
+.bkgnd2::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.65);
+}
+
+/* background cover pretest */
+.bkgnd3 {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/static/img/laptop.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.bkgnd3::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.65);
+}
+
+/* background pretest outro */
+.bkgnd4 {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/static/img/hope.jpg');
+  background-position: 0%;
+  background-size: cover;
+}
+
+.bkgnd4::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(50,50,50,0.70);
+}
+
+/* background results */
+.bkgnd5 {
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/static/img/hope.jpg');
+  background-position: 0%;
+  background-size: cover;
+}
+
+.bkgnd5::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(50,50,50,1);
+}
+
+/* content itself */
+.footer {
+  text-align:center;
+  padding: 0.5em;
+}
+
+.ha1
+{
+  padding-top:5em;
+  color:white;
+  font-size:65px;
+  font-weight:700;
+}
+
+.ha2
+{
+  color:white;
+  font-size:28px;
+  font-weight:200;
+  padding-bottom:1em;
+  padding-top:1em;
+}
+
+.hb1
+{
+  padding-top:1.5em;
+  color:white;
+  font-size:65px;
+  font-weight:400;
+}
+
+.hb2
+{
+  color:white;
+  font-size:28px;
+  font-weight:200;
+  padding-bottom:0.5em;
+}
+
+.hb3
+{
+  padding-top:1em;
+  color:white;
+  font-size:65px;
+  font-weight:300;
+}
+
+.bottom-right
+{
+  color:white;
+  position: absolute;
+  top: 0px;
+  right: 39em;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 6em;
+  line-height: 1.45;
+  position: relative;
+  color: #FFFFFF;
+}
+
+blockquote:before {
+  display: block;
+  padding-left: 20px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: 0.5em;
+  top: 60px;
+  color: #FFFFFF
+}
+
+/* For Progress Bar in Results Page */
+.second
+{
+  position: relative;
+  left: 150px;
+  top:-30px;
+  height:10px;
+  width:20%;
+}
+
+.first
+{
+  padding-left:2em;
+}
+
+
+/* helpers */
+.padding
+{
+  padding: 2em;
+}
+
+.padding-top-left
+{
+  padding-left: 2em;
+  padding-top:2em;
+}
+
+.paddingbottom
+{
+  padding-bottom: 5em;
+}
+
+.paddingright
+{
+  padding-right: 2em;
+}
+
+.padding2
+{
+  padding-right: 14em;
+  padding-left: 14em;
+  padding-bottom: 2em;
+}
+
+.padleft
+{
+  padding-left: 42em;
+}
+
+.padleft2
+{
+  padding-left: 1em;
+}
+
+.pad
+{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.bkgnd-page
+{
+  background-color:#FEF680;
+}
+
+.relative
+{
+  position:relative;
+  left: -620px;
+}
+
+.relative2
+{
+  position:relative;
+  top: -20px;
+  left: -645px;
+}
+
+.relative3
+{
+  position: relative;
+  left: 100px;
+  top:-40px;
+  height:10px;
+  width:90%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.center2 {
+  color: white;
+  font-size:18px;
+  font-weight:100;
+  line-height: 2.2;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.cont
+{
+  position: relative;
+  text-align: center;
+}
+
+.justify
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* For sticky content */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 2em;
+}
+
+.content {
+  padding-top: 0em;
+}
+
+.white
+{
+  background-color:#FFFFFF;
+  height:45px;
+}
