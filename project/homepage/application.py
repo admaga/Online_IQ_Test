@@ -1,11 +1,7 @@
 from cs50 import SQL
 from flask import Flask, render_template, request, redirect
-#from flask_session import Session
 
 app = Flask(__name__)
-#app.config["SESSION_PERMANENT"] = False
-#app.config["SESSION_TYPE"] = "filesystem"
-#Session(app)
 
 db = SQL("sqlite:///iqtest.db")
 
@@ -50,9 +46,9 @@ def results():
 		# Count questions and correct answers for each answer type
 		type_dict = {
 			'Math': {'correct': 0, 'count': 0},
-        	'Logic': {'correct': 0, 'count': 0},
-        	'Verbal': {'correct': 0, 'count': 0},
-        	'Technical': {'correct': 0, 'count': 0},
+        		'Logic': {'correct': 0, 'count': 0},
+        		'Verbal': {'correct': 0, 'count': 0},
+        		'Technical': {'correct': 0, 'count': 0},
 		}
 
 		# Check correct answers per type of question and increment respective counter
