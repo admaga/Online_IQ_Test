@@ -24,7 +24,6 @@ With the following structure:
 | 1 | Math | What numbers should replace the question marks? | 100, 95, ?, 79, 68, ?, 40, 23|
 | 2 | Verbal | Clever is to ingenious as wise is to  | NULL |
 | ..| .. |.. |.. |
-
 A question can have or not data in the *content* column, this field contains supporting information to the question as the example shown above. The type of question will vary from the fields: verbal, math, logic or technical.
 
 2) **Answers**
@@ -41,6 +40,16 @@ With the following structure:
 
 The primary key for an answer is its *id*. There is one record per each answer and the *questionid* will relate the answer text with a particular question. The boolean field in the *correct* column represents a way to show the corrrect answer from an answer's set. As the example above, the answers correspond with the question wiht *id*=1 and the correct answer to the question is the third record.
 
+## Usage
+To run the application have to run the flask server:
+```sh
+flask run
+```
+Then the server will respond with a URL.
+![Image text](https://github.com/admaga/CS50-Final-Project/blob/main/img/flask_run.jpg)
+
+Where we can use our web page.
+![Image text](https://github.com/admaga/CS50-Final-Project/blob/main/img/main_screen.jpg)
+
 ## Demonstration
 There is a live demonstration of this project in the following Youtube [link](https://youtu.be/sq2JY4tL0XM)
-
