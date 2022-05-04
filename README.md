@@ -6,7 +6,7 @@ The project wants to encourage people to enhance their cognitive performance in 
 
 ## Tech
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/#) - Python Web Framework
-- Web Development - CSS, HTML, Javascript
+- [Web Development][df1] - CSS, HTML, Javascript
 - [Bootstrap](https://getbootstrap.com/) - JavaScript plugin
 - [Database](https://www.sqlite.org/index.html) - SQL Lite
 
