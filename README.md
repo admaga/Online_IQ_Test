@@ -59,17 +59,21 @@ And then use our web application:
 After reviewing static information of an IQ Test, we can start the test:
 ![Image text](https://github.com/admaga/CS50-Final-Project/blob/main/img/test.jpg)
 
-> Note: there is a time limit of 20 min to finish the test.
+The results will be shown as follows:
+![Image text](https://github.com/admaga/CS50-Final-Project/blob/main/img/results.jpg)
+
+> Note: consider the time limit of 20 min to finish the test.
 
 ## Demonstration
 There is a live demonstration of this project in the following Youtube [link](https://youtu.be/sq2JY4tL0XM)
 
 ## About CS50
-This Harvard open course was taken in [edx.org](https://www.edx.org/es) and it is an introduction to the intellectual enterprises of computer science and the art of programming. It is taught by Professor David J.Malan and it help students to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. 
+This Harvard open course was taken in [edx](https://www.edx.org/es) and it is an introduction to the intellectual enterprises of computer science and the art of programming. It is taught by Professor David J.Malan and it help students to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. 
 
 Two thirds of CS50 students have never taken CS before. Among the overarching goals of this course are to inspire students to explore unfamiliar waters, without fear of failure, create an intensive, shared experience, accessible to all students, and build community among students.
 
 More information, please check [CS50](https://cs50.harvard.edu/x/2022/).
+
 [Certificate](https://courses.edx.org/certificates/d9d3209363eb42c78b79d443569f3806)
 
 ## License
