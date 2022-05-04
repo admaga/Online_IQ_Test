@@ -24,6 +24,7 @@ With the following structure:
 | 1 | Math | What numbers should replace the question marks? | 100, 95, ?, 79, 68, ?, 40, 23|
 | 2 | Verbal | Clever is to ingenious as wise is to  | NULL |
 | ..| .. |.. |.. |
+
 A question can have or not data in the *content* column, this field contains supporting information to the question as the example shown above. The type of question will vary from the fields: verbal, math, logic or technical.
 
 2) **Answers**
