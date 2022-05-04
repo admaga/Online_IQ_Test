@@ -2,14 +2,13 @@
 ##### CS50 Final Project
 Present a sample of an IQ Test online and review your results. 
 
-The project wants to encourage people to develop their cognitive performance in life, this is based in the idea that the recurrent practice of our mental abilities like logical, verbal, mathematical and technical skills improves our overall development in our daily activities.
+The project wants to encourage people to enhance their cognitive performance in life, this is based in the idea that the recurrent practice of our mental abilities like logical, verbal, mathematical and technical skills improves our overall development in our daily activities.
 
 ## Tech
-- [Python] - Application process
-- [Flask] - Web Framework
-- [Web Development] - CSS, HTML, Javascript
-- [Bootstrap] - JavaScript plugin
-- [Database] - SQL Lite
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/#) - Python Web Framework
+- Web Development - CSS, HTML, Javascript
+- [Bootstrap](https://getbootstrap.com/) - JavaScript plugin
+- [Database](https://www.sqlite.org/index.html) - SQL Lite
 
 
 
